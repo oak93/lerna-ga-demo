@@ -9,6 +9,7 @@
     "build": "lerna run build",
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lerna:publish": "lerna publish --no-git-tag-version",
     "test": "jest"
   },
   "devDependencies": {
