@@ -9,7 +9,7 @@ jobs:
   release:
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x]
     runs-on: ubuntu-latest
 
     env:
@@ -47,9 +47,6 @@ jobs:
 
       - run: echo "Publishing packages to npm..."
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN"
-
-      - run: echo "whoami"
-      - run: npm whoami
       
       - name: Publish Packages
         run: yarn lerna:publish from-package --yes
