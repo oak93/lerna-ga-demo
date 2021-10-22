@@ -5,15 +5,11 @@ on:
     types: [published]
 
 jobs:
-
   release:
     strategy:
       matrix:
         node-version: [14.x]
     runs-on: ubuntu-latest
-
-    env:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
       - name: 🛑 Cancel Previous Runs
@@ -24,7 +20,7 @@ jobs:
         with:
           # https://github.com/lerna/lerna/issues/2542
           # pulls all commits (needed for lerna / semantic release to correctly version)
-          fetch-depth: "0"
+          fetch-depth: '0'
 
       # - name: 🛑 Pull All Tags for Lerna / Semantic Release to Correctly Version
       #   run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
@@ -47,8 +43,10 @@ jobs:
 
       - run: echo "Publishing packages to npm..."
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN"
-      
+
       - name: Publish Packages
         run: yarn lerna:publish from-package --yes
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - run: echo "✅ Release workflow completed successfully"
