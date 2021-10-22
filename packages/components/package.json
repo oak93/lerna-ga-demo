@@ -1,14 +1,9 @@
 {
   "name": "@oakspace/components",
   "version": "0.1.1",
-  "private": false,
   "license": "MIT",
   "author": "oak",
   "main": "src/",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
   "peerDependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",

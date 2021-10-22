@@ -1,15 +1,10 @@
 {
   "name": "@oakspace/react-app",
   "version": "0.1.1",
-  "private": false,
   "license": "MIT",
   "author": "oak",
   "dependencies": {
     "@namespace/components": "0.1.1"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "start": "react-app-rewired start",
