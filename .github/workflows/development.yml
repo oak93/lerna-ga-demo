@@ -6,15 +6,17 @@ on:
       - main
       - develop
   pull_request:
-    types: [ assigned, opened, synchronize, reopened, labeled ]
+    types: [assigned, opened, synchronize, reopened, labeled]
 
 jobs:
-
   main:
     strategy:
       matrix:
         node-version: [12.x, 14.x, 16.x]
     runs-on: ubuntu-latest
+
+    env:
+      NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
     steps:
       - name: 🛑 Cancel Previous Runs
