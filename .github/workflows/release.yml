@@ -47,6 +47,9 @@ jobs:
 
       - run: echo "Publishing packages to npm..."
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN"
+
+      - run: echo "whoami"
+      - run: npm whoami
       
       - name: Publish Packages
         run: yarn lerna:publish from-package --yes
