@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NPM_TOKEN: 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
+      NPM_TOKEN: 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
 
     steps:
       - name: 🛑 Cancel Previous Runs
