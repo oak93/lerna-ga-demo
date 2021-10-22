@@ -11,6 +11,9 @@ jobs:
         node-version: [14.x]
     runs-on: ubuntu-latest
 
+    env:
+      NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+
     steps:
       - name: 🛑 Cancel Previous Runs
         uses: styfle/cancel-workflow-action@0.9.0
@@ -47,7 +50,5 @@ jobs:
         run: |
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
           yarn lerna:publish from-package --yes
-        env:
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - run: echo "✅ Release workflow completed successfully"
