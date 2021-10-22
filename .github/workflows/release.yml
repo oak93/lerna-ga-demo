@@ -42,10 +42,11 @@ jobs:
         run: yarn test
 
       - run: echo "Publishing packages to npm..."
-      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN"
 
       - name: Publish Packages
-        run: yarn lerna:publish from-package --yes
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+          yarn lerna:publish from-package --yes
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
 
