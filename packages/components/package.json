@@ -4,6 +4,9 @@
   "license": "MIT",
   "author": "oak",
   "main": "src/",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",

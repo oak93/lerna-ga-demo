@@ -6,6 +6,9 @@
   "dependencies": {
     "@oakspace/components": "0.1.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
