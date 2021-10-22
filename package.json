@@ -1,6 +1,8 @@
 {
   "name": "namespace",
   "private": true,
+  "license": "MIT",
+  "author": "oak",
   "workspaces": [
     "packages/*"
   ],
