@@ -1,6 +1,6 @@
 {
   "name": "namespace",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],

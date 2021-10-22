@@ -1,7 +1,7 @@
 {
   "name": "@namespace/react-app",
   "version": "0.1.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@namespace/components": "0.1.1"
   },
