@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/components-next@0.4.0...@oakspace/components-next@0.4.1) (2021-10-26)
+
+**Note:** Version bump only for package @oakspace/components-next
+
+
+
+
+
 # 0.4.0 (2021-10-26)
 
 
