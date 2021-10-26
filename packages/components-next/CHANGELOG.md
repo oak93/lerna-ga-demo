@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/components-next@0.4.1...@oakspace/components-next@0.5.0) (2021-10-26)
+
+
+### Bug Fixes
+
+* next-button ([08a0d41](https://github.com/oak93/lerna-ga-demo/commit/08a0d41d560be2e3e8006875c2b8fa85c4aecff4))
+
+
+### Features
+
+* next-button component color prop added ([8f30d08](https://github.com/oak93/lerna-ga-demo/commit/8f30d0843c51dc37e0ff648cd483dd0011788fc0))
+
+
+
+
+
 ## [0.4.1](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/components-next@0.4.0...@oakspace/components-next@0.4.1) (2021-10-26)
 
 **Note:** Version bump only for package @oakspace/components-next
