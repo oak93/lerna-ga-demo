@@ -1,5 +1,9 @@
 import React, { ReactElement } from 'react';
 
-const NextButton = (): ReactElement => <button type="submit">Button</button>;
+const NextButton = ({ color = 'black' }: any): ReactElement => (
+  <button style={{ color }} type="submit">
+    Button
+  </button>
+);
 
 export default NextButton;
