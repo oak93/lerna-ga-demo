@@ -12,7 +12,7 @@
     "lerna:build": "lerna run build",
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lerna:publish": "lerna publish --no-git-tag-version",
+    "lerna:publish": "lerna publish",
     "lerna:version": "lerna version --conventional-commits --no-push --exact"
   },
   "devDependencies": {
