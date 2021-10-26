@@ -8,6 +8,9 @@
       "npmClient": "npm",
       "verifyAccess": false,
       "ignoreChanges": []
+    },
+    "version": {
+      "conventionalCommits": true
     }
   }
 }
