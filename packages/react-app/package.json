@@ -1,10 +1,10 @@
 {
   "name": "@oakspace/react-app",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "license": "MIT",
   "author": "oak",
   "dependencies": {
-    "@oakspace/components": "^0.3.0"
+    "@oakspace/components": "^0.4.0"
   },
   "publishConfig": {
     "access": "public"
