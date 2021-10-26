@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/components@0.4.0...@oakspace/components@0.4.1) (2021-10-26)
+
+
+### Bug Fixes
+
+* tests are added ([65727b2](https://github.com/oak93/lerna-ga-demo/commit/65727b22e753dd56cf5243a8e866b0e39a5b075e))
+* tests are added ([ab2a8a8](https://github.com/oak93/lerna-ga-demo/commit/ab2a8a86efb8500e0cad8393b9cbce123d84992a))
+* tests removed ([ff0e142](https://github.com/oak93/lerna-ga-demo/commit/ff0e142a3cdf1e10682eea31951036cab5809ffe))
+
+
+
+
+
 # [0.4.0](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/components@0.3.0...@oakspace/components@0.4.0) (2021-10-26)
 
 
