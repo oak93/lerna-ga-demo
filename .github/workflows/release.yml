@@ -43,6 +43,9 @@ jobs:
 
       - run: echo "Publishing packages to npm..."
 
+      - name: Version Packages
+        run: yarn lerna:version --yes
+        
       - name: Publish Packages
         run: |
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
