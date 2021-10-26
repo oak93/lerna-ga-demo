@@ -38,9 +38,6 @@ jobs:
       - name: ⚙️ Build
         run: yarn lerna:build
 
-      - name: 🧪 Run Tests
-        run: yarn test
-
       - run: echo "Publishing packages to npm..."
 
       - name: Version Packages
