@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 
-const NextButton = ({ color = 'black' }: any): ReactElement => (
-  <button style={{ color }} type="submit">
+const NextButton = ({ color = 'black', backgroundColor = 'transparent' }: any): ReactElement => (
+  <button style={{ color, backgroundColor }} type="submit">
     Button
   </button>
 );

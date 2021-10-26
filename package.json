@@ -11,7 +11,7 @@
     "lerna:build": "lerna run build",
     "start": "lerna run start --stream",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lerna:version": "lerna version --no-push --exact",
+    "lerna:version": "lerna version --conventional-commit --no-push --exact",
     "lerna:publish": "lerna publish --no-git-tag-version",
     "test": "jest"
   },
