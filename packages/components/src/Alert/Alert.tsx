@@ -1,5 +1,9 @@
 import React, { ReactElement } from 'react';
 
-const Alert = ({ children }: any): ReactElement => <div aria-label="alert">{children}</div>;
+const Alert = ({ children, color = 'red' }: any): ReactElement => (
+  <div style={{ color }} aria-label="alert">
+    {children}
+  </div>
+);
 
 export default Alert;
