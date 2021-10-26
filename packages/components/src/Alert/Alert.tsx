@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 
-const Alert = ({ children, color = 'red' }: any): ReactElement => (
-  <div style={{ color }} aria-label="alert">
+const Alert = ({ children, color = 'red', backgroundColor = 'transparent', fontSize = '16px' }: any): ReactElement => (
+  <div style={{ backgroundColor, color, fontSize }} aria-label="alert component">
     {children}
   </div>
 );
