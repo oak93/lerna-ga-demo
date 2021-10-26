@@ -43,6 +43,6 @@ jobs:
       - name: Publish Packages
         run: |
           npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
-          yarn lerna:publish from-package --yes
+          yarn lerna:publish from-git --yes
 
       - run: echo "✅ Release workflow completed successfully"
