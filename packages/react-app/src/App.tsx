@@ -6,6 +6,7 @@ const App = (): ReactElement => {
     <div className="App">
       <Button />
       <Input />
+      <div>is this working?</div>
     </div>
   );
 };
