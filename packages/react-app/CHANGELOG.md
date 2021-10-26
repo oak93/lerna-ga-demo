@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/react-app@0.1.11...@oakspace/react-app@0.1.12) (2021-10-26)
+
+
+### Bug Fixes
+
+* minor change in react-app ([258cfe7](https://github.com/oak93/lerna-ga-demo/commit/258cfe780ef21d4cc525e5f95c76322b3d0aef05))
+
+
+
+
+
 ## [0.1.11](https://github.com/oak93/lerna-ga-demo/compare/@oakspace/react-app@0.1.10...@oakspace/react-app@0.1.11) (2021-10-26)
 
 
