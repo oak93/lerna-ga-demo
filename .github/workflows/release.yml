@@ -39,9 +39,6 @@ jobs:
         run: yarn lerna:build
 
       - run: echo "Publishing packages to npm..."
-
-      - name: Version Packages
-        run: yarn lerna:version --yes
         
       - name: Publish Packages
         run: |
