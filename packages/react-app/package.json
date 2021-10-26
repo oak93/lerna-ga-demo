@@ -25,6 +25,5 @@
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
     "typescript": "3.6.4"
-  },
-  "gitHead": "cbe5b90c71f866395179c9d3f2b2cdf3a16d6fd0"
+  }
 }
